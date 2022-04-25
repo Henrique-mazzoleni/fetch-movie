@@ -1,0 +1,39 @@
+.form {
+    background-color: var(--primary-color);
+    color: var(--light-secondary);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form h2 {
+    margin-top: 0;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.form label {
+    width: 20%;
+    text-align: center;
+}
+
+.form input {
+    width: 70%;
+}
+
+.button {
+    background-color: var(--dark-primary);
+    color: var(--light-secondary);
+    border: none;
+    border-radius: 10px;
+    font-size: inherit;
+    margin: 10px auto 0;
+    padding: 10px 30px;
+}

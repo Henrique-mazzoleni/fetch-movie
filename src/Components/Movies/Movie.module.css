@@ -1,0 +1,16 @@
+.movie {
+    padding: 20px;
+    margin: 5px 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.movie h2 {
+    font-size: 2.2rem;
+    color: var(--secondary-color);
+}
+
+.movie p {
+    font-size: 1.2rem;
+    color: var(--light-secondary)
+}
